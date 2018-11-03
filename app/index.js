@@ -7,6 +7,8 @@ import Camera from './pages/camera'
 import TabView from './pages/tabview'
 import Video from './pages/video'
 import WebView from './pages/webview'
+import ImagePicker from './pages/image-picker'
+import Icons from './pages/icons'
 
 const Pages = createStackNavigator({
     Home,
@@ -14,7 +16,9 @@ const Pages = createStackNavigator({
     Camera,
     TabView,
     Video,
-    WebView
+    WebView,
+    ImagePicker,
+    Icons
 })
 export default class extends React.Component{
     render () {
