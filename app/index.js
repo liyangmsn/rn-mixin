@@ -9,6 +9,7 @@ import Video from './pages/video'
 import WebView from './pages/webview'
 import ImagePicker from './pages/image-picker'
 import Icons from './pages/icons'
+import DeviceInfo from './pages/device-info'
 
 const Pages = createStackNavigator({
     Home,
@@ -18,7 +19,8 @@ const Pages = createStackNavigator({
     Video,
     WebView,
     ImagePicker,
-    Icons
+    Icons,
+    DeviceInfo
 })
 export default class extends React.Component{
     render () {

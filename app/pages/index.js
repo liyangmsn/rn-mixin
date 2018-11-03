@@ -19,6 +19,7 @@ export default class extends React.Component{
             <Button title="WebView" onPress={() => navigation.navigate('WebView')}/>
             <Button title="ImagePicker" onPress={() => navigation.navigate('ImagePicker')}/>
             <Button title="Icons" onPress={() => navigation.navigate('Icons')}/>
+            <Button title="DeviceInfo" onPress={() => navigation.navigate('DeviceInfo')}/>
             
         </View>
     }
